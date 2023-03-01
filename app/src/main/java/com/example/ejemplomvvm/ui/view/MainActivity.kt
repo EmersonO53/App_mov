@@ -1,14 +1,19 @@
 package com.example.ejemplomvvm.ui.view
 
+import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
-import com.example.ejemplomvvm.databinding.ActivityMainBinding
 import com.example.ejemplomvvm.ui.viewmodel.QuoteViewModel
+import com.example.mvvm.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
+
 
     private lateinit var binding: ActivityMainBinding
 
