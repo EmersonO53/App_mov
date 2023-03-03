@@ -21,3 +21,5 @@ Port
 --------------------
 Password
   238ac8df14cbc5377270a5b1fe88c62f6b91ab536309b4ad4e07c72f27f9d64d
+-------------------------
+applications.propieties agregar los datos de la base de datos
