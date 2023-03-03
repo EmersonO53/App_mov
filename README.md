@@ -7,12 +7,17 @@ THIS PROJECT REQUIRES THE SPRING TOOLS OR ECLIPSE
 PGADMIN 
 DATA HEROKU
 ---------------------------
-LOCALHOST: ec2-34-194-73-236.compute-1.amazonaws.com
+Host
+ec2-107-23-76-12.compute-1.amazonaws.com
+-----------------
+Database
+d5i095cshajo0l
 -------------------
-DATA BASE: dcsp5ljpa4mg90
----------------
-USER: bcsqfscluibtuj
------------------------
-////LA CLAVE DE LA DATA BASE SERA MODIFICADA
-PASSWORD: c10f77274abf4337f017bfb71714d0437e854b2fb0948ec67df3b266fa7b3769
-
+User
+oynedtciokasow
+--------------
+Port
+5432
+--------------------
+Password
+  238ac8df14cbc5377270a5b1fe88c62f6b91ab536309b4ad4e07c72f27f9d64d
