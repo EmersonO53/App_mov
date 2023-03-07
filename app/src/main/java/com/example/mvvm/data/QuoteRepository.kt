@@ -3,9 +3,7 @@ package com.example.mvvm.data
 import com.example.mvvm.data.database.dao.QuoteDao
 import com.example.mvvm.data.database.entities.QuoteEntity
 import com.example.mvvm.data.model.QuoteModel
-import com.example.mvvm.data.model.QuoteProvider
 import com.example.mvvm.data.network.QuoteService
-import com.example.mvvm.di.RoomModule
 import com.example.mvvm.domain.model.Quote
 import com.example.mvvm.domain.model.toDomain
 import javax.inject.Inject

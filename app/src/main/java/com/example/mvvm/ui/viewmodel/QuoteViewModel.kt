@@ -21,8 +21,6 @@ class QuoteViewModel @Inject constructor(
     val quoteModel = MutableLiveData<Quote>()
     val isloading = MutableLiveData<Boolean>()
 
-    //var getQuotesUseCase = GetQuotesUseCase()
-    //var getRandomQuoteUseCase = GetRandomQuoteUseCase()
 
     fun onCreate() {
         viewModelScope.launch {

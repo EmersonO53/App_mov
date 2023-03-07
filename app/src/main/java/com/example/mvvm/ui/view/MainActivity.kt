@@ -26,11 +26,13 @@ class MainActivity : AppCompatActivity() {
         quoteViewModel.quoteModel.observe(this, Observer {currentQuote ->
             binding.tvQuote.text = currentQuote.quote
             binding.tvAutor.text = currentQuote.author
+            binding.tvUsuario.text ="emerson"
         })
 
         quoteViewModel.isloading.observe(this, Observer {
             binding.progress.isVisible = it
         })
+
         binding.viewContainer.setOnClickListener { quoteViewModel.randomQuote() }
     }
 }
